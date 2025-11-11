@@ -18,7 +18,11 @@
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased bg-gray-50 text-gray-900;
+  }
+
+  ::selection {
+    @apply bg-blue-200 text-blue-900;
   }
 }
 
